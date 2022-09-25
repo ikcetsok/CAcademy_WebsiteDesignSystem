@@ -49,6 +49,24 @@ header {
   font-weight: bold;
 }
 
+.Heading1 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Heading2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.Heading3 {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+}
+
 #Gustavo {
   background-color: rgb(70, 167, 208);
   color: white;
@@ -80,3 +98,4 @@ header {
 #pro p {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
