@@ -1,5 +1,6 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
 
 h1 {
@@ -19,16 +20,33 @@ header {
 .main {
   border: 3px solid black;
   border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+ 
 }
 
-.colours {
+.colours, fonts {
   display: inline-block;
-  height: 200px;
+
   width: 250px;
   text-align: center;
   padding-top: 60px;
+  padding-bottom: 60px;
   line-height: 2;
   margin: 10px 10px;
+} 
+
+.normal {
+  font-weight: 400;
+}
+
+.italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 #Gustavo {
@@ -49,4 +67,16 @@ header {
 #AppleGreen {
   background-color: rgb(93, 232, 95);
   color: white;
+}
+
+#roboto p {
+  font-family: Roboto;
+}
+
+#mono p {
+  font-family: monospace;
+}
+
+#pro p {
+  font-family: 'Source Sans Pro', sans-serif;
 }
