@@ -3,14 +3,17 @@
 }
 
 h1 {
-    font-size: large;
-    padding-left: 20px;
+  font-size: large;
+  padding-left: 20px;
 }
 
 header {
-    background-color: rgb(210, 208, 208);
-    height: 50px;
-    padding: 10px 0;
+  background-color: rgb(210, 208, 208);
+  height: 50px;
+  width: 500px;
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
 }
 
 .main {
@@ -19,16 +22,31 @@ header {
 }
 
 .colours {
-    display: inline-block;
-    height: 200px;
-    width: 250px;
-    text-align: center;
-    padding-top: 60px;
-    line-height: 2;
-    margin: 10px 10px;
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  padding-top: 60px;
+  line-height: 2;
+  margin: 10px 10px;
 }
 
 #Gustavo {
-    background-color: rgb(70, 167, 208);
-    color: white;
+  background-color: rgb(70, 167, 208);
+  color: white;
+}
+
+#Maestro {
+  background-color: rgb(230, 174, 106);
+  color: white;
+}
+
+#Pusheen {
+  background-color: rgb(170, 171, 171);
+  color: white;
+}
+
+#AppleGreen {
+  background-color: rgb(93, 232, 95);
+  color: white;
 }
