@@ -9,12 +9,13 @@ h1 {
 }
 
 header {
-  background-color: rgb(210, 208, 208);
+  background-color: rgb(235, 161, 235);
   height: 50px;
   width: 500px;
   margin: auto;
   padding: 10px 0;
   text-align: center;
+  border-radius: 10px;
 }
 
 .main {
